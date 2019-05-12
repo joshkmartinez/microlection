@@ -1,0 +1,30 @@
+{
+  "name": "microlection",
+  "version": "1.0.0",
+  "description": "A collection of some semi-useful microservices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "now dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "now --target production"
+  },
+  "keywords": [
+    "microservice",
+    "collection"
+  ],
+  "author": "Joshua Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^8.0.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "rebass": "^3.0.1",
+    "styled-components": "^4.1.3",
+    "webpack": "^4.29.3"
+  },
+  "devDependencies": {
+    "now": "^15.2.0"
+  }
+}

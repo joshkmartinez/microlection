@@ -1,0 +1,15 @@
+{
+  "name": "Microlection",
+  "alias": [
+    "micro",
+    "service",
+    "microserviceCollection",
+    "microlection",
+    "project-microlection"
+  ],
+  "version": 2,
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
+  "github": {
+    "silent": true
+  }
+}
